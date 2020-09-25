@@ -1,10 +1,10 @@
-package com.adroit.ruby.util;
+package com.adroit.gem.util;
 
-import com.adroit.ruby.Ruby;
-import com.adroit.ruby.blocks.BlockItemBase;
-import com.adroit.ruby.blocks.RubyBlock;
-import com.adroit.ruby.blocks.RubyOre;
-import com.adroit.ruby.items.ItemBase;
+import com.adroit.gem.Gem;
+import com.adroit.gem.blocks.BlockItemBase;
+import com.adroit.gem.blocks.RubyBlock;
+import com.adroit.gem.blocks.RubyOre;
+import com.adroit.gem.items.ItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -14,8 +14,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class RegistryHandler
 {
-    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Ruby.MOD_ID);
-    public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Ruby.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Gem.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Gem.MOD_ID);
 
 
     public static void init()

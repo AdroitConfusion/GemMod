@@ -1,33 +1,23 @@
-package com.adroit.ruby;
+package com.adroit.gem;
 
-import com.adroit.ruby.util.RegistryHandler;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import com.adroit.gem.util.RegistryHandler;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
-import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.stream.Collectors;
-
 @Mod("rubymod")
-public class Ruby
+public class Gem
 {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "rubymod";
 
-    public Ruby() {
+    public Gem() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
@@ -52,4 +42,4 @@ public class Ruby
             return new ItemStack(RegistryHandler.RUBY.get());
         }
     };
-} 
+}

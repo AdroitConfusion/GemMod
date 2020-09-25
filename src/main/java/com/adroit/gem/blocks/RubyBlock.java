@@ -1,4 +1,4 @@
-package com.adroit.ruby.blocks;
+package com.adroit.gem.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

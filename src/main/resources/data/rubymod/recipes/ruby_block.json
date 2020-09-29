@@ -10,7 +10,7 @@
   {
     "x":
     {
-      "item": "rubymod:ruby"
+      "item": "gemmod:ruby"
     },
     "y":
     {
@@ -19,7 +19,7 @@
   },
   "result":
   {
-    "item": "rubymod:ruby_block",
+    "item": "gemmod:ruby_block",
     "count": 1
   }
 }

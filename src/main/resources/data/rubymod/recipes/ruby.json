@@ -2,15 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond"
-    },
-    {
-      "item": "minecraft:red_dye"
+      "item": "gemmod:ruby_block"
     }
   ],
   "result":
   {
-    "item": "rubymod:ruby",
-    "count": 1
+    "item": "gemmod:ruby",
+    "count": 9
   }
 }

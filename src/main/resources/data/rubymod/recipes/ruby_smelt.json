@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "rubymod:ruby_ore"
+    "item": "gemmod:ruby_ore"
   },
-  "result": "rubymod:ruby",
+  "result": "gemmod:ruby",
   "experience": 1.0,
   "cookingtime": 200
 }

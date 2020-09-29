@@ -5,8 +5,9 @@ import com.adroit.gem.blocks.BlockItemBase;
 import com.adroit.gem.blocks.RubyBlock;
 import com.adroit.gem.blocks.RubyOre;
 import com.adroit.gem.items.ItemBase;
+import com.adroit.gem.tools.ModItemTier;
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -26,6 +27,23 @@ public class RegistryHandler
     }
     //Items
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+
+    //Tools
+    public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby", () ->
+        new SwordItem(ModItemTier.RUBY, 5, -2.4F, new Item.Properties().group(Gem.TAB))
+    );
+    public static final RegistryObject<PickaxeItem> RUBY_PICKAXE = ITEMS.register("ruby", () ->
+            new PickaxeItem(ModItemTier.RUBY, 3, -2.8F, new Item.Properties().group(Gem.TAB))
+    );
+    public static final RegistryObject<ShovelItem> RUBY_SHOVEL = ITEMS.register("ruby", () ->
+            new ShovelItem(ModItemTier.RUBY, 3.5F, -3.0F, new Item.Properties().group(Gem.TAB))
+    );
+    public static final RegistryObject<AxeItem> RUBY_AXE = ITEMS.register("ruby", () ->
+            new AxeItem(ModItemTier.RUBY, 7, -3.0F, new Item.Properties().group(Gem.TAB))
+    );
+    public static final RegistryObject<HoeItem> RUBY_HOE = ITEMS.register("ruby", () ->
+            new HoeItem(ModItemTier.RUBY, 0.0F, new Item.Properties().group(Gem.TAB))
+    );
 
     //Blocks
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);

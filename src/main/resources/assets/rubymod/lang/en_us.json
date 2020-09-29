@@ -1,6 +1,12 @@
 {
-  "item.rubymod.ruby": "Ruby",
-  "block.rubymod.ruby_block": "Block of Ruby",
-  "block.rubymod.ruby_ore": "Ruby Ore",
-  "itemGroup.Ruby Mod": "Ruby Mod "
+  "item.gemmod.ruby": "Ruby",
+  "block.gemmod.ruby_block": "Block of Ruby",
+  "block.gemmod.ruby_ore": "Ruby Ore",
+  "itemGroup.Ruby Mod": "Ruby Mod",
+  "item.gemmod.ruby_sword": "Ruby Sword",
+  "item.gemmod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.gemmod.ruby_shovel": "Ruby Shovel",
+  "item.gemmod.ruby_hoe": "Ruby Hoe",
+  "item.gemmod.ruby_axe": "Ruby Axe"
+
 }

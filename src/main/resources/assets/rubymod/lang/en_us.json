@@ -7,6 +7,9 @@
   "item.gemmod.ruby_pickaxe": "Ruby Pickaxe",
   "item.gemmod.ruby_shovel": "Ruby Shovel",
   "item.gemmod.ruby_hoe": "Ruby Hoe",
-  "item.gemmod.ruby_axe": "Ruby Axe"
-
+  "item.gemmod.ruby_axe": "Ruby Axe",
+  "item.gemmod.ruby_helmet": "Ruby Helmet",
+  "item.gemmod.ruby_chestplate": "Ruby Chestplate",
+  "item.gemmod.ruby_leggings": "Ruby Leggings",
+  "item.gemmod.ruby_boots": "Ruby Boots"
 }

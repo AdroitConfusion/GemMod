@@ -2,9 +2,7 @@ package com.adroit.gem.util;
 
 import com.adroit.gem.Gem;
 import com.adroit.gem.armor.ModArmorMaterial;
-import com.adroit.gem.blocks.BlockItemBase;
-import com.adroit.gem.blocks.RubyBlock;
-import com.adroit.gem.blocks.RubyOre;
+import com.adroit.gem.blocks.*;
 import com.adroit.gem.items.ItemBase;
 import com.adroit.gem.tools.ModItemTier;
 import net.minecraft.block.Block;
@@ -27,10 +25,11 @@ public class RegistryHandler
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
     }
+
+    // --------------------------------- ruby --------------------------------------
+
     //Items
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
-
-    public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", ItemBase::new);
 
     //Tools
     public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () ->
@@ -66,5 +65,44 @@ public class RegistryHandler
     //Block Items
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK.get()));
     public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore", () -> new BlockItemBase(RUBY_ORE.get()));
+
+    // --------------------------------- sapphire --------------------------------------
+
+    public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", ItemBase::new);
+
+    //Tools
+    public static final RegistryObject<SwordItem> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () ->
+            new SwordItem(ModItemTier.RUBY, 5, -2.4F, new Item.Properties().group(Gem.TAB))
+    );
+    public static final RegistryObject<PickaxeItem> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", () ->
+            new PickaxeItem(ModItemTier.RUBY, 3, -2.8F, new Item.Properties().group(Gem.TAB))
+    );
+    public static final RegistryObject<ShovelItem> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", () ->
+            new ShovelItem(ModItemTier.RUBY, 3.5F, -3.0F, new Item.Properties().group(Gem.TAB))
+    );
+    public static final RegistryObject<AxeItem> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", () ->
+            new AxeItem(ModItemTier.RUBY, 7, -3.0F, new Item.Properties().group(Gem.TAB))
+    );
+    public static final RegistryObject<HoeItem> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", () ->
+            new HoeItem(ModItemTier.RUBY, 0.0F, new Item.Properties().group(Gem.TAB))
+    );
+
+    //Armor
+    public static final RegistryObject<ArmorItem> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
+            () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.HEAD, new Item.Properties().group(Gem.TAB)));
+    public static final RegistryObject<ArmorItem> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
+            () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.CHEST, new Item.Properties().group(Gem.TAB)));
+    public static final RegistryObject<ArmorItem> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
+            () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.LEGS, new Item.Properties().group(Gem.TAB)));
+    public static final RegistryObject<ArmorItem> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
+            () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.FEET, new Item.Properties().group(Gem.TAB)));
+
+    //Blocks
+    public static final RegistryObject<Block> SAPPHIRE_BLOCK = BLOCKS.register("sapphire_block", SapphireBlock::new);
+    public static final RegistryObject<Block> SAPPHIRE_ORE = BLOCKS.register("sapphire_ore", SapphireOre::new);
+
+    //Block Items
+    public static final RegistryObject<Item> SAPPHIRE_BLOCK_ITEM = ITEMS.register("sapphire_block", () -> new BlockItemBase(SAPPHIRE_BLOCK.get()));
+    public static final RegistryObject<Item> SAPPHIRE_ORE_ITEM = ITEMS.register("sapphire_ore", () -> new BlockItemBase(SAPPHIRE_ORE.get()));
 
 }

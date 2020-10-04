@@ -12,9 +12,11 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 import java.util.function.Supplier;
 
-public enum ModArmorMaterial implements IArmorMaterial
+public enum ArmorMaterial implements IArmorMaterial
 {
-    RUBY(Gem.MOD_ID+":ruby", 30, new int[] {2,5,6,2},12, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5F, () -> { return Ingredient.fromItems(RegistryHandler.RUBY.get()); });
+    RUBY(Gem.MOD_ID+":ruby", 30, new int[] {2,5,6,2},12, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5F, () -> { return Ingredient.fromItems(RegistryHandler.RUBY.get()); }),
+    SAPPHIRE(Gem.MOD_ID+":sapphire", 30, new int[] {2,5,6,2},12, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5F, () -> { return Ingredient.fromItems(RegistryHandler.SAPPHIRE.get()); })
+    ;
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] {11,16,15,13};
     private final String name;
@@ -25,7 +27,7 @@ public enum ModArmorMaterial implements IArmorMaterial
     private final float toughness;
     private final Supplier<Ingredient> repairMaterial;
 
-    ModArmorMaterial(String name, int maxDamageFactor, int[] damageReduction, int enchantability, SoundEvent soundEvent, float toughness, Supplier<Ingredient> repairMaterial)
+    ArmorMaterial(String name, int maxDamageFactor, int[] damageReduction, int enchantability, SoundEvent soundEvent, float toughness, Supplier<Ingredient> repairMaterial)
     {
         this.name = name;
         this.maxDamageFactor = maxDamageFactor;

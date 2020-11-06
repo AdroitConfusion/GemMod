@@ -66,7 +66,7 @@ public class Gem
 
     }
 
-    public static final ItemGroup TAB = new ItemGroup("Ruby Mod")
+    public static final ItemGroup TAB = new ItemGroup("Gem Mod")
     {
         @Override
         @OnlyIn(Dist.CLIENT)

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx ",
+    "xy ",
+    " y "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "gemmod:ruby"
+    },
+    "y":
+    {
+      "item": "minecraft:stick"
+    }
+
+  },
+  "result":
+  {
+    "item": "gemmod:ruby_axe",
+    "count": 1
+  }
+}

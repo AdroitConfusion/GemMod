@@ -15,5 +15,17 @@
   "item.gemmod.ruby_shield": "Ruby Shield",
 
 
-  "item.gemmod.sapphire": "Sapphire"
+  "item.gemmod.sapphire": "Sapphire",
+  "block.gemmod.sapphire_block": "Block of Sapphire",
+  "block.gemmod.sapphire_ore": "Sapphire Ore",
+  "item.gemmod.sapphire_sword": "Sapphire Sword",
+  "item.gemmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.gemmod.sapphire_shovel": "Sapphire Shovel",
+  "item.gemmod.sapphire_hoe": "Sapphire Hoe",
+  "item.gemmod.sapphire_axe": "Sapphire Axe",
+  "item.gemmod.sapphire_helmet": "Sapphire Helmet",
+  "item.gemmod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.gemmod.sapphire_leggings": "Sapphire Leggings",
+  "item.gemmod.sapphire_boots": "Sapphire Boots"
+
 }

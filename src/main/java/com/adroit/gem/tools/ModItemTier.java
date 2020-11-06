@@ -10,7 +10,12 @@ public enum ModItemTier implements IItemTier
 {
     RUBY(3, 1000, 9.0f, 0.0f, 12, () -> {
         return Ingredient.fromItems(RegistryHandler.RUBY.get());
-    });
+    }),
+    SAPPHIRE(3, 1000, 9.0f, 0.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.SAPPHIRE.get());
+    }),
+    ;
+
 
     private final int harvestLevel;
     private final int maxUses;

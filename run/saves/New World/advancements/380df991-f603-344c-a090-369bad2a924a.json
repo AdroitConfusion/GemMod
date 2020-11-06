@@ -1,353 +1,655 @@
 {
-  "minecraft:recipes/redstone/tnt": {
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
     "criteria": {
-      "has_gunpowder": "2020-10-07 13:58:59 -0400"
+      "has_polished_andesite": "2020-09-30 17:52:19 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+  "minecraft:recipes/combat/iron_sword": {
     "criteria": {
-      "has_chicken": "2020-10-07 14:03:51 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2020-10-07 14:12:35 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/compass": {
-    "criteria": {
-      "has_redstone": "2020-10-07 14:09:16 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:skeleton": "2020-10-06 20:07:13 -0400"
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
+      "has_stone": "2020-09-29 11:07:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2020-09-30 17:52:50 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
+      "has_stone": "2020-09-29 11:07:31 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/sticky_piston": {
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
-      "has_slime_ball": "2020-10-07 13:58:54 -0400"
+      "has_andesite": "2020-09-29 11:08:34 -0400"
     },
     "done": true
   },
-  "minecraft:nether/return_to_sender": {
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
     "criteria": {
-      "killed_ghast": "2020-10-07 13:56:40 -0400"
+      "has_polished_andesite": "2020-09-30 17:52:19 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/stonecutter": {
+  "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
     },
     "done": true
   },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
-      "has_leather": "2020-10-07 14:12:35 -0400"
+      "has_leather": "2020-09-29 11:38:38 -0400"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
-      "minecraft:plains": "2020-10-06 19:31:18 -0400"
+      "has_planks": "2020-09-30 17:52:46 -0400"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2020-09-30 17:52:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs": {
+    "criteria": {
+      "has_polished_granite": "2020-10-02 10:36:34 -0400"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
+      "has_stone": "2020-09-29 11:07:31 -0400"
     },
     "done": true
   },
-  "minecraft:husbandry/root": {
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
     "criteria": {
-      "consumed_item": "2020-10-07 13:57:17 -0400"
+      "has_polished_diorite": "2020-09-30 17:52:50 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone_torch": {
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
     "criteria": {
-      "has_redstone": "2020-10-07 14:09:16 -0400"
+      "has_planks": "2020-09-30 17:52:45 -0400"
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
+  "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
-      "diamond_helmet": "2020-10-06 19:32:15 -0400"
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
     },
     "done": true
   },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_lots_of_items": "2020-10-07 13:56:26 -0400"
+      "has_lots_of_items": "2020-09-29 11:02:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2020-09-29 11:05:22 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
+      "has_stone": "2020-09-29 11:07:31 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
+      "has_stone": "2020-09-29 11:07:31 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/snow_block": {
+  "minecraft:recipes/redstone/birch_button": {
     "criteria": {
-      "has_snowball": "2020-10-07 14:07:06 -0400"
+      "has_planks": "2020-09-30 17:52:46 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
+  "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
-      "has_obsidian": "2020-10-07 14:06:37 -0400"
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2020-10-03 20:42:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2020-09-30 17:52:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
+      "has_stone": "2020-09-29 11:07:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2020-09-29 11:08:34 -0400"
     },
     "done": true
   },
   "minecraft:recipes/combat/arrow": {
     "criteria": {
-      "has_feather": "2020-10-07 14:03:51 -0400"
+      "has_feather": "2020-09-29 11:38:58 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/stone_pressure_plate": {
+  "minecraft:recipes/misc/stick": {
     "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2020-10-06 20:07:13 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2020-10-07 14:12:35 -0400"
+      "has_planks": "2020-09-30 17:52:44 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
+      "has_stone": "2020-09-29 11:07:31 -0400"
     },
     "done": true
   },
-  "minecraft:story/deflect_arrow": {
+  "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
-      "deflected_projectile": "2020-10-06 19:32:44 -0400"
+      "has_log": "2020-09-29 11:07:51 -0400"
     },
     "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2020-10-06 20:07:04 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_obsidian": "2020-10-07 14:06:37 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/grindstone": {
-    "criteria": {
-      "has_stone_slab": "2020-10-07 14:11:05 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2020-10-07 14:12:35 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/throw_trident": {
-    "criteria": {
-      "shot_trident": "2020-10-07 16:48:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2020-10-09 10:35:03 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/clock": {
-    "criteria": {
-      "has_redstone": "2020-10-07 14:09:16 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
-    "criteria": {
-      "has_carrot": "2020-10-07 14:05:15 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2020-10-06 20:07:13 -0400",
-      "minecraft:ghast": "2020-10-07 13:56:40 -0400",
-      "minecraft:slime": "2020-10-07 13:58:18 -0400",
-      "minecraft:drowned": "2020-10-07 14:10:55 -0400"
-    },
-    "done": false
   },
   "minecraft:recipes/food/cake": {
     "criteria": {
-      "has_egg": "2020-10-07 14:05:09 -0400"
+      "has_egg": "2020-09-29 11:38:59 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone_block": {
+  "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
-      "has_redstone": "2020-10-07 14:09:16 -0400"
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
     },
     "done": true
   },
-  "minecraft:husbandry/balanced_diet": {
+  "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
-      "cooked_beef": "2020-10-07 13:57:17 -0400",
-      "carrot": "2020-10-07 14:05:23 -0400"
+      "has_planks": "2020-09-30 17:52:44 -0400"
     },
-    "done": false
+    "done": true
   },
-  "minecraft:recipes/redstone/piston": {
+  "minecraft:recipes/tools/iron_axe": {
     "criteria": {
-      "has_redstone": "2020-10-07 14:09:16 -0400"
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2020-09-30 17:52:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
     },
     "done": true
   },
   "minecraft:recipes/tools/lead": {
     "criteria": {
-      "has_slime_ball": "2020-10-07 13:58:54 -0400"
+      "has_slime_ball": "2020-09-29 11:06:49 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+  "minecraft:recipes/misc/bucket": {
     "criteria": {
-      "has_chicken": "2020-10-07 14:03:51 -0400"
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs": {
+  "minecraft:recipes/combat/iron_boots": {
     "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal": {
+  "minecraft:recipes/redstone/hopper": {
     "criteria": {
-      "has_bone": "2020-10-06 20:08:05 -0400"
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
     },
     "done": true
   },
-  "minecraft:nether/uneasy_alliance": {
+  "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
-      "killed_ghast": "2020-10-07 13:56:40 -0400"
+      "has_planks": "2020-09-30 17:52:46 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/slime_block": {
+  "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
-      "has_slime_ball": "2020-10-07 13:58:54 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/note_block": {
-    "criteria": {
-      "has_redstone": "2020-10-07 14:09:16 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken": {
-    "criteria": {
-      "has_chicken": "2020-10-07 14:03:51 -0400"
+      "has_planks": "2020-09-30 17:52:46 -0400"
     },
     "done": true
   },
   "minecraft:recipes/redstone/stone_button": {
     "criteria": {
-      "has_stone": "2020-10-06 19:31:40 -0400"
+      "has_stone": "2020-09-29 11:07:31 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/snow": {
+  "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
-      "has_snowball": "2020-10-07 14:07:06 -0400"
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dropper": {
+  "minecraft:recipes/combat/crossbow": {
     "criteria": {
-      "has_redstone": "2020-10-07 14:09:16 -0400"
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
     "criteria": {
-      "obsidian": "2020-10-07 14:06:37 -0400"
+      "has_diorite": "2020-09-30 17:52:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-09-30 17:52:44 -0400"
     },
     "done": true
   },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
-      "has_leather": "2020-10-07 14:12:35 -0400"
+      "has_leather": "2020-09-29 11:38:38 -0400"
     },
     "done": true
   },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
-      "has_leather": "2020-10-07 14:12:35 -0400"
+      "has_leather": "2020-09-29 11:38:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2020-09-29 11:38:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2020-09-29 11:38:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab": {
+    "criteria": {
+      "has_polished_granite": "2020-10-02 10:36:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:slime": "2020-09-29 11:06:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2020-09-29 11:07:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2020-09-29 11:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2020-10-02 10:36:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2020-09-29 11:06:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2020-09-29 11:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2020-09-30 17:52:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2020-09-29 11:07:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2020-09-29 11:38:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-09-29 11:02:17 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2020-09-29 11:07:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2020-09-29 11:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2020-09-30 17:52:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2020-09-29 11:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2020-09-30 17:52:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2020-09-29 11:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_birch_planks": "2020-09-30 17:52:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2020-09-29 11:06:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2020-09-29 11:07:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2020-09-29 11:38:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2020-09-29 11:07:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2020-09-30 17:52:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2020-09-30 17:52:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2020-09-29 11:38:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2020-09-29 11:07:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2020-09-29 11:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:slime": "2020-09-29 11:06:24 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2020-09-30 17:52:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2020-10-02 10:36:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-09-30 17:52:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2020-09-29 11:38:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2020-09-29 11:38:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_dark_oak_planks": "2020-09-30 17:52:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2020-09-29 11:07:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-09-30 17:52:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2020-09-30 17:52:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2020-09-30 17:52:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2020-09-29 11:06:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2020-09-29 11:38:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2020-09-30 17:52:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2020-09-30 17:52:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2020-09-29 11:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2020-09-29 11:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2020-09-29 11:38:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2020-10-02 12:37:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2020-09-30 17:52:46 -0400"
     },
     "done": true
   },

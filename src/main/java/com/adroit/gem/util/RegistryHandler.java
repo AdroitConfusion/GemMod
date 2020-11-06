@@ -8,6 +8,9 @@ import com.adroit.gem.blocks.RubyOre;
 import com.adroit.gem.items.ItemBase;
 import com.adroit.gem.tools.ModItemTier;
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.entity.model.ShieldModel;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityType;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
@@ -15,17 +18,19 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+
 public class RegistryHandler
 {
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Gem.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Gem.MOD_ID);
+    public static final DeferredRegister<EntityType<?>> ENTITIES_TYPES = new DeferredRegister<>(ForgeRegistries.ENTITIES, Gem.MOD_ID);
 
 
     public static void init()
     {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
-
+        //ENTITIES.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
     //Items
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
@@ -66,5 +71,13 @@ public class RegistryHandler
     //Block Items
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK.get()));
     public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore", () -> new BlockItemBase(RUBY_ORE.get()));
+
+    //Entities
+    //public static final RegistryObject<EntityType<>> = ENTITIES_TYPES.register("ruby_shield", )
+
+    //Entity Items
+    public static final RegistryObject<ShieldItem> RUBY_SHIELD = ITEMS.register("ruby_shield", () ->
+            new ShieldItem(new Item.Properties().maxDamage(500).group(Gem.TAB)));
+
 
 }
